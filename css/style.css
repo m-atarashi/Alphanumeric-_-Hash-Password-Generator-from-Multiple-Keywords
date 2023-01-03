@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
 
 * {
-  font-family: 'Yu Gothci', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 textarea#keywords {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Noto Sans Mono', monospace;
   font-size  : 15px;
   padding    : 6px;
   resize     : none;

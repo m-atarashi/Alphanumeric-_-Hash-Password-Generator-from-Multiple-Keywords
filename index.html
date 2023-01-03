@@ -2,16 +2,17 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript" src="./scripts/generator.js"></script>
-    <script type="text/javascript" src="./scripts/sha3.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
+    <script type="text/javascript" src="./js/generator.js"></script>
+    <script type="text/javascript" src="./js/sha3.js"></script>
   </head>
   <body>
-    <div>
-      <label for="keywords">Type keywords.</label>
-    </div>
-    <textarea id="keywords" rows="5" cols="32"
-              autofocus
-              oninput="generate(event)"></textarea>
-    <p id="values"></p>
+    <textarea id="keywords" rows="5" cols="32" placeholder="Enter keywords"
+              spellcheck="false" autofocus></textarea>
+    <p>
+      <button type="button" id="copy" class="material-symbols-outlined">content_copy</button>
+      <input type="password" id="password" size="16" readonly>
+    </p>
   </body>
 </html>

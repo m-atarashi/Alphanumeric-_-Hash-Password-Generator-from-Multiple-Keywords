@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "Hash-Password-Generator",
+  "version": "1.0",
+
+  "description": "Generate a password from keywords using sha-3.",
+  "homepage_url": "https://github.com/m-atarashi/Hash-Password-Generator-from-Keywords",
+
+  "permissions": [
+    "clipboard-write",
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_title": "Hash-Password-Generator",
+    "default_popup": "index.html"
+  }
+}

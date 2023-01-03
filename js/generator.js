@@ -1,4 +1,3 @@
-
 const DIGIT = 16;
 
 function calcHash(e) {
@@ -21,7 +20,16 @@ function convertRadix(hex) {
         .replaceAll('/', '_');
 }
 
-function generate(e) {
-  const log = document.getElementById('values');
-  log.textContent = convertRadix(calcHash(e));
+function display(e) {
+  const password = document.getElementById('password');
+  password.value = convertRadix(calcHash(e));
 }
+
+document.addEventListener("input", e => {
+  if (e.target.id === "keywords") display(e);
+});
+
+document.addEventListener("click", e => {
+  if (e.target.id === "copy") 
+    navigator.clipboard.writeText(document.getElementById("password").value);
+});

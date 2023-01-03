@@ -1,4 +1,4 @@
-# Hash-Password-Generator-from-Keywords
+# Alphanumeric-_ Hash Password Generator from Multiple Keywords
 ### **仕様**
 
 - キーワードの集合からパスワードを生成する。
